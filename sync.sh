@@ -20,7 +20,7 @@ set -euo pipefail
 repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 config_dir="$HOME/.config"
 
-modules=(hypr fish noctalia)
+modules=(hypr fish noctalia kitty)
 
 # <repo-relative source> -> <$HOME-relative destination>
 declare -A links=(
