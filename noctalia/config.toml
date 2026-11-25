@@ -3,6 +3,14 @@ mode = "dark"
 
 [bar.main]
 position = "top"
+margin_ends = 0
+concave_edge_corners = true
+start = ["workspaces"]
+center = ["clock"]
+end = ["tray", "network", "volume"]
+
+[widget.network]
+show_label = false
 
 [shell]
 polkit_agent = true
